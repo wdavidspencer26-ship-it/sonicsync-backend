@@ -13,7 +13,6 @@ const showsRouter   = require("./routes/shows");
 
 const app  = express();
 const PORT = process.env.PORT || 4000;
-const axios = require("axios");
 const authRouter = require("./routes/auth");
 app.use("/api/auth", authRouter);
 const redirectUri = "https://inflectional-cara-uromeric.ngrok-free.dev";
